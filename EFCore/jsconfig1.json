@@ -1,0 +1,13 @@
+[
+  {
+    "FirstName": "Khaled",
+    "LastName": "Ismail",
+    "Salary": 200,
+    "Tasks": [
+      {
+        "TaskName": "TestTask",
+        "CreatedAt": "2019-07-26T00:00:00"
+      }
+    ]
+  }
+]
