@@ -1,0 +1,257 @@
+2022-10-23 02:15:52.808 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:15:52.867 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:15:52.871 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:15:52.872 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:15:52.872 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:15:53.816 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods - -
+2022-10-23 02:15:54.063 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-23 02:15:54.222 +03:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DependencyInjection.API.Models.Food]] GetFoods() on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:15:55.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:15:55.552 +03:00 [INF] Endpoint GetFoods done
+2022-10-23 02:15:55.619 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DependencyInjection.API.Models.Food, DependencyInjection.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-23 02:15:56.063 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API) in 500.9142ms
+2022-10-23 02:15:56.113 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-23 02:15:56.127 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods - - - 200 - application/json;+charset=utf-8 2316.8855ms
+2022-10-23 02:15:56.641 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:15:56.658 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 16.7272ms
+2022-10-23 02:15:56.658 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 1127.2956ms
+2022-10-23 02:15:56.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:15:56.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 133.4172ms
+2022-10-23 02:15:56.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:15:57.171 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 261.9848ms
+2022-10-23 02:16:09.476 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:16:09.478 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:16:09.505 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:16:09.527 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-10-23 02:16:09.532 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 24.9362ms
+2022-10-23 02:16:09.536 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:16:09.538 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 404 - application/problem+json;+charset=utf-8 61.4478ms
+2022-10-23 02:16:55.128 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0
+2022-10-23 02:16:55.128 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:16:55.130 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:16:55.147 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:16:55.180 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 47.4447ms
+2022-10-23 02:16:55.184 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:16:55.189 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-10-23 02:16:55.272 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0 - 500 - text/plain;+charset=utf-8 144.0842ms
+2022-10-23 02:17:18.154 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0
+2022-10-23 02:17:18.160 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:17:18.161 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:18:15.161 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:18:15.163 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 57001.1597ms
+2022-10-23 02:18:15.168 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:18:15.171 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtRouteResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-10-23 02:18:15.180 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0 - 500 - text/plain;+charset=utf-8 57025.1318ms
+2022-10-23 02:32:09.395 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:32:09.486 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:32:09.495 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:32:09.500 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:32:09.503 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:32:11.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:32:11.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 538.2159ms
+2022-10-23 02:32:11.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:32:11.778 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:32:11.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 8.0747ms
+2022-10-23 02:32:11.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.8067ms
+2022-10-23 02:32:12.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:32:13.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1080.6799ms
+2022-10-23 02:32:13.653 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0
+2022-10-23 02:32:13.680 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:32:13.739 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:32:13.829 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-10-23 02:32:13.848 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 93.2288ms
+2022-10-23 02:32:13.856 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:32:13.858 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=132 - 0 - 400 - application/problem+json;+charset=utf-8 205.1272ms
+2022-10-23 02:33:29.654 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:33:29.726 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:33:29.731 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:33:29.734 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:33:29.735 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:33:31.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:33:31.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:33:31.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 7.2823ms
+2022-10-23 02:33:31.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 407.9339ms
+2022-10-23 02:33:31.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:33:31.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.6890ms
+2022-10-23 02:33:31.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:33:32.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.0069ms
+2022-10-23 02:33:33.514 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods - 0
+2022-10-23 02:33:33.529 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:33:33.565 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:33:43.547 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:33:43.638 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 10058.1056ms
+2022-10-23 02:33:43.647 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:33:43.648 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods - 0 - 201 - application/json;+charset=utf-8 10133.9362ms
+2022-10-23 02:34:02.594 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:34:02.595 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:34:02.599 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:34:02.603 +03:00 [INF] Executing OkObjectResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:34:02.604 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 2.7052ms
+2022-10-23 02:34:02.605 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:34:02.606 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 200 - application/json;+charset=utf-8 12.2574ms
+2022-10-23 02:35:04.923 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:35:05.011 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:35:05.025 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:35:05.114 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:35:05.117 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:35:06.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:35:06.585 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:35:06.778 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:35:06.813 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:35:06.895 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-10-23 02:35:06.929 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 103.4743ms
+2022-10-23 02:35:06.939 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:35:06.945 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 404 - application/problem+json;+charset=utf-8 368.8031ms
+2022-10-23 02:35:07.202 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:35:07.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 635.4697ms
+2022-10-23 02:35:07.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 7.9192ms
+2022-10-23 02:35:07.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:35:07.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8736ms
+2022-10-23 02:35:07.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:35:07.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.5001ms
+2022-10-23 02:35:10.745 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0
+2022-10-23 02:35:10.746 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:35:10.755 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:35:10.779 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:35:10.810 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 49.3233ms
+2022-10-23 02:35:10.811 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:35:10.812 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0 - 201 - application/json;+charset=utf-8 66.9542ms
+2022-10-23 02:35:16.714 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:35:16.715 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:35:16.716 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:35:16.718 +03:00 [INF] Executing OkObjectResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:35:16.719 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 1.1424ms
+2022-10-23 02:35:16.719 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:35:16.721 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 200 - application/json;+charset=utf-8 6.4759ms
+2022-10-23 02:43:29.261 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:43:29.323 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:43:29.328 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:43:29.330 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:43:29.330 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:43:30.871 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:43:31.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 388.6565ms
+2022-10-23 02:43:31.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:43:31.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:43:31.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 10.6807ms
+2022-10-23 02:43:31.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1733ms
+2022-10-23 02:43:31.441 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:43:31.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.6506ms
+2022-10-23 02:43:36.071 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:43:36.089 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:36.127 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:36.180 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-10-23 02:43:36.204 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 60.6967ms
+2022-10-23 02:43:36.214 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:36.215 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 404 - application/problem+json;+charset=utf-8 144.1238ms
+2022-10-23 02:43:38.047 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0
+2022-10-23 02:43:38.050 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:43:38.053 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:38.072 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:43:38.138 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 83.6262ms
+2022-10-23 02:43:38.140 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:43:38.142 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0 - 201 - application/json;+charset=utf-8 94.2667ms
+2022-10-23 02:43:40.869 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:43:40.870 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:40.870 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:40.872 +03:00 [INF] Executing OkObjectResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:43:40.872 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 1.0352ms
+2022-10-23 02:43:40.874 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:40.876 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 200 - application/json;+charset=utf-8 7.3546ms
+2022-10-23 02:43:43.995 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0
+2022-10-23 02:43:44.016 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:43:44.019 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:44.022 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:43:44.026 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 4.2834ms
+2022-10-23 02:43:44.029 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:43:44.031 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0 - 201 - application/json;+charset=utf-8 35.9732ms
+2022-10-23 02:43:46.190 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/7 - -
+2022-10-23 02:43:46.193 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:46.196 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:46.201 +03:00 [INF] Executing OkObjectResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:43:46.203 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 2.3737ms
+2022-10-23 02:43:46.204 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:46.205 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/7 - - - 200 - application/json;+charset=utf-8 14.9510ms
+2022-10-23 02:43:50.914 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods/8 - -
+2022-10-23 02:43:50.914 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:50.918 +03:00 [INF] Route matched with {action = "GetFoodById", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] GetFoodById(Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:43:50.921 +03:00 [INF] Executing OkObjectResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:43:50.922 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API) in 1.7815ms
+2022-10-23 02:43:50.926 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoodById (DependencyInjection.API)'
+2022-10-23 02:43:50.928 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods/8 - - - 200 - application/json;+charset=utf-8 14.6031ms
+2022-10-23 02:44:05.169 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods - -
+2022-10-23 02:44:05.171 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-23 02:44:05.175 +03:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DependencyInjection.API.Models.Food]] GetFoods() on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:44:05.179 +03:00 [INF] Endpoint GetFoods done
+2022-10-23 02:44:05.180 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DependencyInjection.API.Models.Food, DependencyInjection.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-23 02:44:05.186 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API) in 7.5329ms
+2022-10-23 02:44:05.187 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-23 02:44:05.188 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods - - - 200 - application/json;+charset=utf-8 18.7953ms
+2022-10-23 02:53:47.605 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-23 02:53:47.796 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-23 02:53:47.832 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-23 02:53:47.834 +03:00 [INF] Hosting environment: Development
+2022-10-23 02:53:47.835 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-23 02:53:48.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-23 02:53:49.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 555.0478ms
+2022-10-23 02:53:49.441 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-23 02:53:49.441 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-23 02:53:49.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 21.6774ms
+2022-10-23 02:53:49.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.7476ms
+2022-10-23 02:53:49.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-23 02:53:49.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.8548ms
+2022-10-23 02:53:56.690 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0
+2022-10-23 02:53:56.708 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:53:56.753 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:53:56.819 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:53:56.863 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 101.1585ms
+2022-10-23 02:53:56.873 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:53:56.877 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0 - 201 - application/json;+charset=utf-8 187.0786ms
+2022-10-23 02:54:04.983 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0
+2022-10-23 02:54:04.986 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:54:04.988 +03:00 [INF] Route matched with {action = "CreateFood", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[DependencyInjection.API.Models.Food] CreateFood(System.String, Int32) on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-23 02:54:04.995 +03:00 [INF] Executing CreatedAtRouteResult, writing value of type 'DependencyInjection.API.Models.Food'.
+2022-10-23 02:54:04.996 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API) in 6.5286ms
+2022-10-23 02:54:04.997 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.CreateFood (DependencyInjection.API)'
+2022-10-23 02:54:04.998 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7189/api/foods?name=soas&price=11 - 0 - 201 - application/json;+charset=utf-8 14.9925ms

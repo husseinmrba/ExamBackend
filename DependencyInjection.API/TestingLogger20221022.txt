@@ -1,0 +1,42 @@
+2022-10-22 18:47:39.402 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-22 18:47:39.468 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-22 18:47:39.473 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 18:47:39.474 +03:00 [INF] Hosting environment: Development
+2022-10-22 18:47:39.475 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-22 18:47:40.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-22 18:47:40.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 565.8726ms
+2022-10-22 18:47:41.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-22 18:47:41.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 18:47:41.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 12.9183ms
+2022-10-22 18:47:41.138 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 107.0692ms
+2022-10-22 18:47:41.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-22 18:47:41.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 237.1072ms
+2022-10-22 18:48:24.826 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods - -
+2022-10-22 18:48:24.837 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-22 18:48:24.854 +03:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DependencyInjection.API.Models.Food]] GetFoods() on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-22 18:48:24.860 +03:00 [INF] Endpoint GetFoods done
+2022-10-22 18:48:24.868 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DependencyInjection.API.Models.Food, DependencyInjection.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 18:48:24.897 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API) in 36.9356ms
+2022-10-22 18:48:24.905 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-22 18:48:24.910 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods - - - 200 - application/json;+charset=utf-8 83.2899ms
+2022-10-22 18:49:30.062 +03:00 [INF] Now listening on: https://localhost:7189
+2022-10-22 18:49:30.139 +03:00 [INF] Now listening on: http://localhost:5189
+2022-10-22 18:49:30.152 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-22 18:49:30.154 +03:00 [INF] Hosting environment: Development
+2022-10-22 18:49:30.156 +03:00 [INF] Content root path: C:\Users\Wwwhu\source\repos\ExamBackend\DependencyInjection.API\
+2022-10-22 18:49:31.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2022-10-22 18:49:31.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 342.9981ms
+2022-10-22 18:49:31.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2022-10-22 18:49:31.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2022-10-22 18:49:31.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12016 application/javascript;+charset=utf-8 8.5845ms
+2022-10-22 18:49:32.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.9473ms
+2022-10-22 18:49:32.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2022-10-22 18:49:32.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.9590ms
+2022-10-22 18:49:41.194 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7189/api/foods - -
+2022-10-22 18:49:41.211 +03:00 [INF] Executing endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-22 18:49:41.235 +03:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DependencyInjection.API.Models.Food]] GetFoods() on controller DependencyInjection.API.Controllers.FoodsController (DependencyInjection.API).
+2022-10-22 18:49:41.242 +03:00 [INF] Endpoint GetFoods done
+2022-10-22 18:49:41.258 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DependencyInjection.API.Models.Food, DependencyInjection.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-22 18:49:41.301 +03:00 [INF] Executed action DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API) in 52.6227ms
+2022-10-22 18:49:41.310 +03:00 [INF] Executed endpoint 'DependencyInjection.API.Controllers.FoodsController.GetFoods (DependencyInjection.API)'
+2022-10-22 18:49:41.311 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7189/api/foods - - - 200 - application/json;+charset=utf-8 117.3097ms

@@ -58,7 +58,7 @@ namespace Linq
             // Skip
             var skip = products.Skip(1).ToList();
             //SkipWhile
-            var skipWhile = products.SkipWhile(p => p.Id >= 5).ToList();
+            var skipWhile = products.SkipWhile(p => p.Id <= 5).ToList();
             // Union & Intersect & Except
             int[] arr1 = new int[] { 1, 2, 3 };
             int[] arr2 = new int[] { 3, 4, 5 };
